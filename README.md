@@ -77,29 +77,3 @@ CUDA_VISIBLE_DEVICES="" python main.py --init_noise_std 0. --save_path segan_v1.
 To make things easy, there is a bash script called `clean_wav.sh` that accepts as input argument the test filename and
 the save path.
 
-### Authors
-
-* **Santiago Pascual** (TALP-UPC, BarcelonaTech)
-* **Antonio Bonafonte** (TALP-UPC, BarcelonaTech)
-* **Joan Serrà** (Telefónica Research, Barcelona)
-
-### Reference
-
-```
-@article{pascual2017segan,
-  title={SEGAN: Speech Enhancement Generative Adversarial Network},
-  author={Pascual, Santiago and Bonafonte, Antonio and Serr{\`a}, Joan},
-  journal={arXiv preprint arXiv:1703.09452},
-  year={2017}
-}
-```
-
-### Contact
-
-e-mail: santi.pascual@upc.edu
-
-### Notes
-
-* If using this code, parts of it, or developments from it, please cite the above reference.
-* We do not provide any support or assistance for the supplied code nor we offer any other compilation/variant of it.
-* We assume no responsibility regarding the provided code.
